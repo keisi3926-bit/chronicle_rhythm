@@ -10,7 +10,7 @@
 <div id="gbg"></div>
 <div class="noise"></div>
 
-<!-- TITLE -->
+<!-- ══ TITLE ══ -->
 <div id="st" class="screen active">
   <div class="tl-wrap">
     <div class="tl-eye">── Character Song Archive ──</div>
@@ -20,61 +20,41 @@
   </div>
   <div class="tl-div"></div>
   <div class="tl-menu">
-    <button class="tbtn pri" onclick="goTo('ssr')">▶ START</button>
+    <button class="tbtn pri" id="btn-start">▶ START</button>
     <button class="tbtn" onclick="openM('mopt')">OPTION</button>
     <button class="tbtn" onclick="openM('mcrd')">CREDIT</button>
   </div>
   <div class="tl-foot">PRESS START</div>
 </div>
 
-<!-- SERIES -->
+<!-- ══ SERIES ══ -->
 <div id="ssr" class="screen">
   <div class="sh">
-    <button class="hbk" onclick="goTo('st')">◀ BACK</button>
+    <button class="hbk" id="ssr-back">◀ BACK</button>
     <span class="htit">SELECT SERIES</span>
     <span class="hcrumb">01</span>
   </div>
   <div class="sg">
-    <div class="sc" data-s="kos" onclick="selSeries('kos')">
-      <span class="sc-ico">👟</span>
-      <div class="sc-num">SERIES 01</div>
-      <div class="sc-name">King of<br>Slipper</div>
-      <div class="sc-cnt" id="cnt-kos">─ SONGS</div>
-    </div>
-    <div class="sc" data-s="vendetta" onclick="selSeries('vendetta')">
-      <span class="sc-ico">⚔️</span>
-      <div class="sc-num">SERIES 02</div>
-      <div class="sc-name">Vendetta</div>
-      <div class="sc-cnt" id="cnt-vendetta">─ SONGS</div>
-    </div>
-    <div class="sc" data-s="oreue" onclick="selSeries('oreue')">
-      <span class="sc-ico">🌸</span>
-      <div class="sc-num">SERIES 03</div>
-      <div class="sc-name">Oreue</div>
-      <div class="sc-cnt" id="cnt-oreue">─ SONGS</div>
-    </div>
-    <div class="sc" data-s="all" onclick="selSeries('all')">
-      <span class="sc-ico">🎵</span>
-      <div class="sc-num">ALL</div>
-      <div class="sc-name">All Songs</div>
-      <div class="sc-cnt" id="cnt-all">─ SONGS</div>
-    </div>
+    <div class="sc" data-s="kos"      onclick="selSeries('kos')"><span class="sc-ico">👟</span><div class="sc-num">SERIES 01</div><div class="sc-name">King of<br>Slipper</div><div class="sc-cnt" id="cnt-kos">5 SONGS</div></div>
+    <div class="sc" data-s="vendetta" onclick="selSeries('vendetta')"><span class="sc-ico">⚔️</span><div class="sc-num">SERIES 02</div><div class="sc-name">Vendetta</div><div class="sc-cnt" id="cnt-vendetta">3 SONGS</div></div>
+    <div class="sc" data-s="oreue"    onclick="selSeries('oreue')"><span class="sc-ico">🌸</span><div class="sc-num">SERIES 03</div><div class="sc-name">Oreue</div><div class="sc-cnt" id="cnt-oreue">2 SONGS</div></div>
+    <div class="sc" data-s="all"      onclick="selSeries('all')"><span class="sc-ico">🎵</span><div class="sc-num">ALL</div><div class="sc-name">All Songs</div><div class="sc-cnt" id="cnt-all">10 SONGS</div></div>
   </div>
 </div>
 
-<!-- SONG SELECT -->
+<!-- ══ SONG SELECT ══ -->
 <div id="ss" class="screen">
   <div class="sh">
-    <button class="hbk" onclick="goTo('ssr')">◀ BACK</button>
+    <button class="hbk" id="ss-back">◀ BACK</button>
     <span class="htit" id="ssh">SELECT SONG</span>
     <span class="hcrumb">02</span>
   </div>
   <div class="sl">
     <div class="sip">
-      <div class="sj" id="sj">
+      <div class="sj">
         <img id="sj-img" src="" alt="" style="display:none">
-        <span id="sj-ico" style="font-size:30px;opacity:.4">🎵</span>
-        <div class="sj-ov"></div>
+        <span id="sj-ico" style="font-size:28px;opacity:.4">🎵</span>
+        <div class="sj-ov" id="sj-ov"></div>
       </div>
       <div class="sit">
         <div class="si-ser" id="i-ser">─</div>
@@ -91,27 +71,24 @@
     <div class="slw" id="slw"></div>
   </div>
   <div class="sab">
-    <button class="abt bk" onclick="goTo('ssr')">◀ BACK</button>
-    <button class="abt pl" onclick="startPlay()">▶ PLAY</button>
+    <button class="abt bk" id="ss-back2">◀ BACK</button>
+    <button class="abt pl" id="btn-play">▶ PLAY</button>
   </div>
 </div>
 
-<!-- PLAY -->
+<!-- ══ PLAY ══ -->
 <div id="sp" class="screen">
   <div class="ph">
-    <button class="pbk" onclick="exitPlay()">◀ EXIT</button>
+    <button class="pbk" id="play-back">◀ EXIT</button>
     <div class="psn" id="psn">─</div>
     <div style="width:60px"></div>
   </div>
-  <div class="pjbg" id="pjbg">
+  <div class="pjbg">
     <img id="pjbg-img" src="" alt="" style="display:none">
     <div class="pjbg-ov"></div>
     <div class="pjbg-info">
-      <div>
-        <div class="pjbg-title" id="pjbg-t">─</div>
-        <div class="pjbg-artist" id="pjbg-a">─</div>
-      </div>
-      <div class="prog-text" id="p-prog-t">0%</div>
+      <div><div class="pjbg-t" id="pjbg-t">─</div><div class="pjbg-a" id="pjbg-a">─</div></div>
+      <div class="prog-t" id="prog-t">0%</div>
     </div>
   </div>
   <div class="phud">
@@ -132,7 +109,7 @@
   </div>
 </div>
 
-<!-- RESULT -->
+<!-- ══ RESULT ══ -->
 <div id="res-ov">
   <div class="res-tit" id="r-tit">RESULT</div>
   <div class="res-grade" id="r-grade">S</div>
@@ -144,25 +121,23 @@
     <div class="res-box"><div class="res-bl">GOOD</div><div class="res-bv" id="r-go" style="color:#44aaff">0</div></div>
     <div class="res-box"><div class="res-bl">MISS</div><div class="res-bv" id="r-ms" style="color:#ff4444">0</div></div>
   </div>
-  <button class="res-btn" onclick="retryPlay()">▶ RETRY</button>
-  <button class="res-btn sub" onclick="goRes('ss')">SONG SELECT</button>
+  <div class="res-btns">
+    <button class="res-btn" id="btn-retry">▶ RETRY</button>
+    <button class="res-btn sub" id="btn-to-select">SONG SELECT</button>
+  </div>
 </div>
 
-<!-- MODALS -->
+<!-- ══ MODALS ══ -->
 <div class="mov" id="mopt"><div class="mbox">
   <div class="mtit">── Option ──</div>
-  <div class="mbody">
-    <p><b>KEY CONFIG</b>：D / F / J / K</p>
-    <br><p style="opacity:.4;font-size:11px">設定機能は今後追加予定</p>
-  </div>
+  <div class="mbody"><p><b>KEY</b>：D / F / J / K</p><br><p style="opacity:.35;font-size:11px">設定機能は今後追加予定</p></div>
   <button class="mclose" onclick="closeM('mopt')">CLOSE</button>
 </div></div>
 <div class="mov" id="mcrd"><div class="mbox">
   <div class="mtit">── Credit ──</div>
   <div class="mbody">
     <p><b>Chronicle Rhythm</b></p><br>
-    <p>Music：慧梓 (Suno AI)</p>
-    <p>Characters / Story：慧梓</p>
+    <p>Music：慧梓 (Suno AI)</p><p>Characters：慧梓</p>
     <p>IP：KOS / Vendetta / Oreue</p>
     <p>Engine：HTML5 / Web Audio API</p>
   </div>
