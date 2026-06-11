@@ -65,14 +65,37 @@ var SONGS = [
     id:'or_02', series:'oreue', seriesLabel:'Oreue',
     title:'Doujou Sumire Idol Song', artist:'堂条純恋', bpm:118, level:4, icon:'🌸',
     comment:'純恋ちゃんの初めてのアイドルソング。'
+  },
+  {
+    id:'or_03', series:'oreue', seriesLabel:'Oreue',
+    title:'家族のためやと言うてます', artist:'結城佐和子', bpm:72, level:4, icon:'🌸',
+    comment:'昭和に生きたすべてのおかん・おばちゃんへ。',
+    audio:  'assets/audio/or_03_kazoku.mp3',
+    jacket: 'assets/images/or_03_jacket.jpg',
+    chart:  'assets/charts/or_03_normal.json'
+  },
+  // ── 無駄マジ ──────────────────────────────────────
+  {
+    id:'muda_01', series:'muda', seriesLabel:'無駄マジ',
+    title:'3gの亡霊', artist:'無駄マジ', bpm:128, level:6, icon:'📡',
+    comment:'電波は立ってる。でも中身は動かない。令和インフラサバイバー。',
+    audio: 'assets/audio/muda_01_3g.mp3',
+    chart: 'assets/charts/muda_01_normal.json'
+  },
+  {
+    id:'muda_02', series:'muda', seriesLabel:'無駄マジ',
+    title:'求めてない', artist:'無駄マジ', bpm:135, level:5, icon:'🙅',
+    comment:'求めてない。でも来る。',
+    audio: 'assets/audio/muda_02_motomenai.mp3',
+    chart: 'assets/charts/muda_02_normal.json'
   }
 ];
 
 // ================================================================
 // CONSTANTS
 // ================================================================
-var SC = { kos:'#ff1a2e', vendetta:'#aa44ff', oreue:'#00ccff', all:'#ffe033' };
-var SN = { kos:'King of Slipper', vendetta:'Vendetta', oreue:'Oreue', all:'All Songs' };
+var SC = { kos:'#ff1a2e', vendetta:'#aa44ff', oreue:'#00ccff', muda:'#00ff88', all:'#ffe033' };
+var SN = { kos:'King of Slipper', vendetta:'Vendetta', oreue:'Oreue', muda:'無駄マジ', all:'All Songs' };
 var LC = ['#ff2244','#ff6600','#ffcc00','#ff44aa'];
 var LK = [['d','D'],['f','F'],['j','J'],['k','K']];
 var JW = { PERFECT:55, GREAT:110, GOOD:160 };
@@ -158,7 +181,7 @@ function renderList() {
   if (curS === 'all') {
     var grp = {};
     songs.forEach(function(s) { if(!grp[s.series]) grp[s.series]=[]; grp[s.series].push(s); });
-    ['kos','vendetta','oreue'].forEach(function(ser) {
+    ['kos','vendetta','oreue','muda'].forEach(function(ser) {
       if (!grp[ser]) return;
       html += '<div class="scat">' + SN[ser] + '</div>';
       grp[ser].forEach(function(s) { html += itemHTML(s); });
