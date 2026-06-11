@@ -1,0 +1,574 @@
+{
+  "format": "chronicle-chart-v1",
+  "meta": {
+    "songId": "muda_01",
+    "title": "3gの亡霊",
+    "artist": "無駄マジ",
+    "bpm": 128,
+    "offset": 0.0,
+    "duration": 181.5
+  },
+  "lanes": 4,
+  "notes": [
+    {
+      "t": 1.5,
+      "lane": 0,
+      "type": "tap"
+    },
+    {
+      "t": 2.0,
+      "lane": 2,
+      "type": "tap"
+    },
+    {
+      "t": 2.5,
+      "lane": 1,
+      "type": "tap"
+    },
+    {
+      "t": 3.0,
+      "lane": 3,
+      "type": "tap"
+    },
+    {
+      "t": 3.5,
+      "lane": 0,
+      "type": "tap"
+    },
+    {
+      "t": 4.0,
+      "lane": 2,
+      "type": "tap"
+    },
+    {
+      "t": 8.0,
+      "lane": 0,
+      "type": "tap"
+    },
+    {
+      "t": 8.45,
+      "lane": 2,
+      "type": "tap"
+    },
+    {
+      "t": 8.9,
+      "lane": 1,
+      "type": "tap"
+    },
+    {
+      "t": 9.35,
+      "lane": 3,
+      "type": "tap"
+    },
+    {
+      "t": 9.8,
+      "lane": 0,
+      "type": "tap"
+    },
+    {
+      "t": 10.25,
+      "lane": 2,
+      "type": "tap"
+    },
+    {
+      "t": 10.7,
+      "lane": 1,
+      "type": "tap"
+    },
+    {
+      "t": 11.15,
+      "lane": 3,
+      "type": "tap"
+    },
+    {
+      "t": 11.6,
+      "lane": 0,
+      "type": "tap"
+    },
+    {
+      "t": 12.05,
+      "lane": 2,
+      "type": "tap"
+    },
+    {
+      "t": 13.0,
+      "lane": 3,
+      "type": "tap"
+    },
+    {
+      "t": 13.45,
+      "lane": 1,
+      "type": "tap"
+    },
+    {
+      "t": 13.9,
+      "lane": 2,
+      "type": "tap"
+    },
+    {
+      "t": 14.35,
+      "lane": 0,
+      "type": "tap"
+    },
+    {
+      "t": 14.8,
+      "lane": 3,
+      "type": "tap"
+    },
+    {
+      "t": 15.25,
+      "lane": 1,
+      "type": "tap"
+    },
+    {
+      "t": 15.7,
+      "lane": 2,
+      "type": "tap"
+    },
+    {
+      "t": 16.15,
+      "lane": 0,
+      "type": "tap"
+    },
+    {
+      "t": 20.0,
+      "lane": 0,
+      "type": "tap"
+    },
+    {
+      "t": 20.28,
+      "lane": 1,
+      "type": "tap"
+    },
+    {
+      "t": 20.56,
+      "lane": 2,
+      "type": "tap"
+    },
+    {
+      "t": 20.84,
+      "lane": 3,
+      "type": "tap"
+    },
+    {
+      "t": 21.12,
+      "lane": 0,
+      "type": "tap"
+    },
+    {
+      "t": 21.4,
+      "lane": 2,
+      "type": "tap"
+    },
+    {
+      "t": 21.68,
+      "lane": 1,
+      "type": "tap"
+    },
+    {
+      "t": 21.96,
+      "lane": 3,
+      "type": "tap"
+    },
+    {
+      "t": 22.240000000000002,
+      "lane": 0,
+      "type": "tap"
+    },
+    {
+      "t": 22.52,
+      "lane": 1,
+      "type": "tap"
+    },
+    {
+      "t": 22.8,
+      "lane": 2,
+      "type": "tap"
+    },
+    {
+      "t": 23.08,
+      "lane": 3,
+      "type": "tap"
+    },
+    {
+      "t": 23.36,
+      "lane": 2,
+      "type": "tap"
+    },
+    {
+      "t": 23.64,
+      "lane": 1,
+      "type": "tap"
+    },
+    {
+      "t": 23.92,
+      "lane": 0,
+      "type": "tap"
+    },
+    {
+      "t": 24.2,
+      "lane": 3,
+      "type": "tap"
+    },
+    {
+      "t": 24.5,
+      "lane": 0,
+      "type": "tap"
+    },
+    {
+      "t": 24.8,
+      "lane": 2,
+      "type": "tap"
+    },
+    {
+      "t": 25.1,
+      "lane": 1,
+      "type": "tap"
+    },
+    {
+      "t": 25.4,
+      "lane": 3,
+      "type": "tap"
+    },
+    {
+      "t": 25.7,
+      "lane": 0,
+      "type": "tap"
+    },
+    {
+      "t": 26.0,
+      "lane": 1,
+      "type": "tap"
+    },
+    {
+      "t": 26.3,
+      "lane": 3,
+      "type": "tap"
+    },
+    {
+      "t": 26.6,
+      "lane": 2,
+      "type": "tap"
+    },
+    {
+      "t": 26.9,
+      "lane": 0,
+      "type": "tap"
+    },
+    {
+      "t": 27.2,
+      "lane": 2,
+      "type": "tap"
+    },
+    {
+      "t": 27.5,
+      "lane": 1,
+      "type": "tap"
+    },
+    {
+      "t": 27.8,
+      "lane": 3,
+      "type": "tap"
+    },
+    {
+      "t": 32.0,
+      "lane": 0,
+      "type": "tap"
+    },
+    {
+      "t": 32.42,
+      "lane": 2,
+      "type": "tap"
+    },
+    {
+      "t": 32.84,
+      "lane": 1,
+      "type": "tap"
+    },
+    {
+      "t": 33.26,
+      "lane": 3,
+      "type": "tap"
+    },
+    {
+      "t": 33.68,
+      "lane": 2,
+      "type": "tap"
+    },
+    {
+      "t": 34.1,
+      "lane": 0,
+      "type": "tap"
+    },
+    {
+      "t": 34.52,
+      "lane": 3,
+      "type": "tap"
+    },
+    {
+      "t": 34.94,
+      "lane": 1,
+      "type": "tap"
+    },
+    {
+      "t": 35.36,
+      "lane": 0,
+      "type": "tap"
+    },
+    {
+      "t": 35.78,
+      "lane": 2,
+      "type": "tap"
+    },
+    {
+      "t": 40.0,
+      "lane": 0,
+      "type": "tap"
+    },
+    {
+      "t": 40.28,
+      "lane": 1,
+      "type": "tap"
+    },
+    {
+      "t": 40.56,
+      "lane": 2,
+      "type": "tap"
+    },
+    {
+      "t": 40.84,
+      "lane": 3,
+      "type": "tap"
+    },
+    {
+      "t": 41.12,
+      "lane": 0,
+      "type": "tap"
+    },
+    {
+      "t": 41.4,
+      "lane": 2,
+      "type": "tap"
+    },
+    {
+      "t": 41.68,
+      "lane": 1,
+      "type": "tap"
+    },
+    {
+      "t": 41.96,
+      "lane": 3,
+      "type": "tap"
+    },
+    {
+      "t": 42.24,
+      "lane": 0,
+      "type": "tap"
+    },
+    {
+      "t": 42.52,
+      "lane": 1,
+      "type": "tap"
+    },
+    {
+      "t": 42.8,
+      "lane": 2,
+      "type": "tap"
+    },
+    {
+      "t": 43.08,
+      "lane": 3,
+      "type": "tap"
+    },
+    {
+      "t": 43.36,
+      "lane": 2,
+      "type": "tap"
+    },
+    {
+      "t": 43.64,
+      "lane": 0,
+      "type": "tap"
+    },
+    {
+      "t": 43.92,
+      "lane": 3,
+      "type": "tap"
+    },
+    {
+      "t": 44.2,
+      "lane": 1,
+      "type": "tap"
+    },
+    {
+      "t": 48.0,
+      "lane": 0,
+      "type": "tap"
+    },
+    {
+      "t": 48.6,
+      "lane": 3,
+      "type": "tap"
+    },
+    {
+      "t": 49.5,
+      "lane": 1,
+      "type": "tap"
+    },
+    {
+      "t": 50.1,
+      "lane": 2,
+      "type": "tap"
+    },
+    {
+      "t": 51.0,
+      "lane": 0,
+      "type": "tap"
+    },
+    {
+      "t": 51.6,
+      "lane": 3,
+      "type": "tap"
+    },
+    {
+      "t": 55.0,
+      "lane": 0,
+      "type": "tap"
+    },
+    {
+      "t": 55.25,
+      "lane": 1,
+      "type": "tap"
+    },
+    {
+      "t": 55.5,
+      "lane": 2,
+      "type": "tap"
+    },
+    {
+      "t": 55.75,
+      "lane": 3,
+      "type": "tap"
+    },
+    {
+      "t": 56.0,
+      "lane": 0,
+      "type": "tap"
+    },
+    {
+      "t": 56.25,
+      "lane": 2,
+      "type": "tap"
+    },
+    {
+      "t": 56.5,
+      "lane": 1,
+      "type": "tap"
+    },
+    {
+      "t": 56.75,
+      "lane": 3,
+      "type": "tap"
+    },
+    {
+      "t": 57.0,
+      "lane": 0,
+      "type": "tap"
+    },
+    {
+      "t": 57.25,
+      "lane": 1,
+      "type": "tap"
+    },
+    {
+      "t": 57.5,
+      "lane": 2,
+      "type": "tap"
+    },
+    {
+      "t": 57.75,
+      "lane": 3,
+      "type": "tap"
+    },
+    {
+      "t": 58.0,
+      "lane": 2,
+      "type": "tap"
+    },
+    {
+      "t": 58.25,
+      "lane": 1,
+      "type": "tap"
+    },
+    {
+      "t": 58.5,
+      "lane": 0,
+      "type": "tap"
+    },
+    {
+      "t": 58.75,
+      "lane": 3,
+      "type": "tap"
+    },
+    {
+      "t": 59.0,
+      "lane": 0,
+      "type": "tap"
+    },
+    {
+      "t": 59.25,
+      "lane": 2,
+      "type": "tap"
+    },
+    {
+      "t": 59.5,
+      "lane": 1,
+      "type": "tap"
+    },
+    {
+      "t": 59.75,
+      "lane": 3,
+      "type": "tap"
+    },
+    {
+      "t": 60.0,
+      "lane": 0,
+      "type": "tap"
+    },
+    {
+      "t": 60.25,
+      "lane": 1,
+      "type": "tap"
+    },
+    {
+      "t": 61.0,
+      "lane": 0,
+      "type": "tap"
+    },
+    {
+      "t": 61.5,
+      "lane": 2,
+      "type": "tap"
+    },
+    {
+      "t": 62.0,
+      "lane": 1,
+      "type": "tap"
+    },
+    {
+      "t": 62.5,
+      "lane": 3,
+      "type": "tap"
+    },
+    {
+      "t": 63.5,
+      "lane": 0,
+      "type": "tap"
+    },
+    {
+      "t": 64.5,
+      "lane": 2,
+      "type": "tap"
+    }
+  ]
+}
